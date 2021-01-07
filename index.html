@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <span class="glass">CodingSpidey</span>
+    <div class="container">
+        <div class="nav-bar">
+            <a href="" class="logo"></a>
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+            <a href="" class="sign-button">sign in</a>
+        </div>
+        <div class="content-box">
+            <div class="title">
+                <p class="light"> Coding Spidey UI/UX</p>
+                <p>Landing Page</p>
+                <p>User Interface Design</p>
+            </div>
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Inventore eveniet repellendus dolorem quisquam, quasi
+                    deserunt! Voluptates, adipisci! Quia ipsam earum laboriosam
+                    facilis totam officiis! Illum maiores officia ut ducimus sint
+                    atque, optio iste
+                    magnam aspernatur dicta nesciunt impedit adipisci repellendus!</p>
+            </div>
+            <div class="button-box">
+                <a href="#">Get started</a>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".container"), {
+            max: 10,
+            speed: 500,
+            glare: true,
+            "max-glare": 1
+        });
+
+    </script>
+</body>
+
+</html>
